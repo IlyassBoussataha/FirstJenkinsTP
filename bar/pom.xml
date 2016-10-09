@@ -33,6 +33,20 @@
             </plugin>
         </plugins>
     </build>
+<profiles>
+		<profile>
+			<id>TEST</id>
+			<properties>
+				<bdd>bddTest</bdd>
+			</properties>
+		</profile>
+		<profile>
+			<id>DEV</id>
+			<properties>
+				<bdd>bddDev</bdd>
+			</properties>
+		</profile>
+	</profiles>
 
   <dependencies>
     <dependency>
